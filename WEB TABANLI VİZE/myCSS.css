@@ -1,0 +1,80 @@
+body {
+    padding: 0;
+    margin: 0;
+    background: #BC8F8F;
+  
+  }
+
+  .hesapMakinesi{
+      width:225px;
+      margin:auto;
+      background-color: #4B0082;
+      padding:20px;
+      border-radius: 8px;
+      background: 	#FFFAFA;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      border-style: double;
+      border-width: 10px;
+      border-color:#9966CC ;
+      display: none;
+    }
+  
+  .hesapMakinesi_ekran{
+      width: 95%;
+      height: 50px;
+      border: none;
+      background-color:  #4B0082;
+      margin-bottom: 10px;
+      border-radius: 8px;
+      font-size: 20px;
+      text-align: right;
+      
+  }
+ input[type=button]  {
+    cursor: pointer;
+    height: 50px;
+    width: 50px;
+    font-size: 25px;
+    border: 2px solid thistle;
+    color: #4B0082;
+    background: white;
+    
+  
+  }
+  .C{
+    animation: C 8s ease-in-out 0s infinite;
+  }
+
+  @keyframes C{
+    from{
+      background-color:thistle;
+  }
+  to{
+      background-color:#CD5C5C;
+      border-radius:50%;
+  }
+}
+
+  #hesapMakAc{
+    padding: 10px;
+    text-align: center;
+    background-color: thistle;
+    border: 5px inset purple;
+  }
+
+  #hesapMakKapat{
+    padding: 10px;
+    text-align: center;
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    width: 100%;
+    background-color: thistle;
+    border: 5px inset purple;
+  }
+  
+ 
+  
